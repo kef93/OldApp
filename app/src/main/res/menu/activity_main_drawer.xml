@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/noticias"
+            android:icon="@drawable/ic_noticia_quente_black_24dp"
+            android:title="Notícias" />
+        <item
+            android:id="@+id/cadastro"
+            android:icon="@drawable/ic_cadastro"
+            android:title="Cadastrar" />
+        <item
+            android:id="@+id/guia_de_bolso"
+            android:icon="@drawable/ic_short_text_black_24dp"
+            android:title="Guia de Bolso" />
+        <item
+            android:id="@+id/ajuda"
+            android:icon="@drawable/ic_ajuda"
+            android:title="Ajuda" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/avaliacao"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Nos Avalie" />
+            <item
+                android:id="@+id/compartilhar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar" />
+       </menu>
+    </item>
+
+</menu>
