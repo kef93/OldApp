@@ -145,6 +145,11 @@
     <string name="title_activity_cadastro">CadastroActivity</string>
 
     <string name="title_activity_guia">GuiaActivity</string>
+    <string name="jogar">Jogar</string>
+    <string name="notcias">Notícias</string>
+    <string name="ajuda">AJUDA!</string>
+    <string name="guia_de_bolso">Guia de Bolso</string>
+    <string name="cadastro">Cadastro</string>
     <string-array name="pref_example_list_titles">
         <item>Always</item>
         <item>When possible</item>

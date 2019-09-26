@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <TextView
@@ -15,7 +16,7 @@
         android:layout_marginLeft="70dp"
         android:layout_marginEnd="159dp"
         android:layout_marginRight="159dp"
-        android:text="Cadastro"
+        android:text="@string/cadastro"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

@@ -16,7 +16,7 @@
         android:layout_marginLeft="70dp"
         android:layout_marginEnd="159dp"
         android:layout_marginRight="159dp"
-        android:text="Guia de Bolso"
+        android:text="@string/guia_de_bolso"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
